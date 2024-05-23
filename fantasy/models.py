@@ -1,6 +1,6 @@
 from django.db import models
 
-class ItemType{models.Model}:
+class ItemType (models.Model):
     name = models.CharField(max_length=255)
 
     def __str__(self):
